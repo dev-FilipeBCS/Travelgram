@@ -22,3 +22,10 @@ nav ul li:last-child img {
     object-fit:cover;
     border-radius: 50%;
 }
+
+@media (width < 80em) {
+    #primary-menu li:nth-child(2),
+    #primary-menu li:nth-child(3){
+        display: none;
+    }
+}
